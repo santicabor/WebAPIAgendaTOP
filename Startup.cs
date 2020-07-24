@@ -73,6 +73,7 @@ namespace WebAPIAgendaTOP
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
             });
         }
     }
