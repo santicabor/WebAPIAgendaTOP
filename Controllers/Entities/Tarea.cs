@@ -13,7 +13,7 @@ namespace WebAPIAgendaTOP.Controllers.Entities
         //[JsonConverter(typeof(DateTimeConverter))]
         //[FormatoFecha]
         [DataMember] public DateTime fecha { get; set; }
-        [Required]
+        //[Required]
         [DataMember] public string descripcion{ get; set; }       
         [DataMember] public double importe { get; set; }
         [DataMember] public string estado { get; set; }
